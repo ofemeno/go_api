@@ -15,7 +15,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprint(w, "POST request successful")
+	fmt.Fprint(w, "POST request successful\n\n")
 
 	// assign form data for variables
 	name := r.FormValue("name")
